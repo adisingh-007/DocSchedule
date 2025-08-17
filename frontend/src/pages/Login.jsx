@@ -51,29 +51,29 @@ const Login = () => {
   }, [token])
 
   return (
-    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center'>
-      <div className='flex flex-col gap-3 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border rounded-xl text-[#5E5E5E] text-sm shadow-lg'>
-        <p className='text-2xl font-semibold'>{state === 'Sign Up' ? 'Create Account' : 'Login'}</p>
-        <p>Please {state === 'Sign Up' ? 'sign up' : 'log in'} to book appointment</p>
+    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center bg-warm/20 p-6 rounded-lg'>
+      <div className='flex flex-col gap-4 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border-2 border-orange-200 rounded-xl text-gray-700 text-sm shadow-lg bg-white'>
+        <p className='text-3xl font-bold text-primary'>{state === 'Sign Up' ? 'खाता बनाएं' : 'लॉगिन करें'}</p>
+        <p className='text-gray-600'>{state === 'Sign Up' ? 'अपॉइंटमेंट बुक करने के लिए साइन अप करें' : 'अपॉइंटमेंट बुक करने के लिए लॉगिन करें'}</p>
         {state === 'Sign Up'
           ? <div className='w-full '>
-            <p>Full Name</p>
-            <input onChange={(e) => setName(e.target.value)} value={name} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="text" required />
+            <p className='font-semibold text-gray-700'>पूरा नाम</p>
+            <input onChange={(e) => setName(e.target.value)} value={name} className='border-2 border-orange-200 rounded-lg w-full p-3 mt-1 focus:border-primary focus:outline-none' type="text" required />
           </div>
           : null
         }
         <div className='w-full '>
-          <p>Email</p>
-          <input onChange={(e) => setEmail(e.target.value)} value={email} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="email" required />
+          <p className='font-semibold text-gray-700'>ईमेल</p>
+          <input onChange={(e) => setEmail(e.target.value)} value={email} className='border-2 border-orange-200 rounded-lg w-full p-3 mt-1 focus:border-primary focus:outline-none' type="email" required />
         </div>
         <div className='w-full '>
-          <p>Password</p>
-          <input onChange={(e) => setPassword(e.target.value)} value={password} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="password" required />
+          <p className='font-semibold text-gray-700'>पासवर्ड</p>
+          <input onChange={(e) => setPassword(e.target.value)} value={password} className='border-2 border-orange-200 rounded-lg w-full p-3 mt-1 focus:border-primary focus:outline-none' type="password" required />
         </div>
-        <button className='bg-primary text-white w-full py-2 my-2 rounded-md text-base'>{state === 'Sign Up' ? 'Create account' : 'Login'}</button>
+        <button className='bg-primary text-white w-full py-3 my-2 rounded-lg text-base font-semibold hover:bg-secondary transition-colors shadow-md'>{state === 'Sign Up' ? 'खाता बनाएं' : 'लॉगिन करें'}</button>
         {state === 'Sign Up'
-          ? <p>Already have an account? <span onClick={() => setState('Login')} className='text-primary underline cursor-pointer'>Login here</span></p>
-          : <p>Create an new account? <span onClick={() => setState('Sign Up')} className='text-primary underline cursor-pointer'>Click here</span></p>
+          ? <p className='text-gray-600'>पहले से खाता है? <span onClick={() => setState('Login')} className='text-primary underline cursor-pointer font-semibold'>यहाँ लॉगिन करें</span></p>
+          : <p className='text-gray-600'>नया खाता बनाएं? <span onClick={() => setState('Sign Up')} className='text-primary underline cursor-pointer font-semibold'>यहाँ क्लिक करें</span></p>
         }
       </div>
     </form>

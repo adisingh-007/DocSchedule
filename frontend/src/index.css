@@ -6,6 +6,12 @@
 
 * {
     font-family: Outfit;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #FFF8DC 0%, #FFEAA7 100%);
+    min-height: 100vh;
 }
 
 .active hr {
@@ -14,10 +20,29 @@
 
 @media (max-width:740px) {
     .active  p{
-       @apply text-white bg-primary
+       @apply text-white bg-primary rounded-full
     }
 }
 
 ::-webkit-scrollbar {
     @apply hidden
+}
+
+/* Custom gradient backgrounds */
+.gradient-warm {
+    background: linear-gradient(135deg, #FFF8DC 0%, #FFEAA7 100%);
+}
+
+.gradient-primary {
+    background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+}
+
+/* Card hover effects */
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 107, 53, 0.15);
 }

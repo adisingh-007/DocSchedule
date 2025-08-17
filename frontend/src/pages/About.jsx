@@ -3,38 +3,40 @@ import { assets } from '../assets/assets'
 
 const About = () => {
   return (
-    <div>
+    <div className='bg-warm/20 p-6 rounded-lg'>
 
-      <div className='text-center text-2xl pt-10 text-[#707070]'>
-        <p>ABOUT <span className='text-gray-700 font-semibold'>US</span></p>
+      <div className='text-center text-3xl pt-10 text-primary'>
+        <p className='font-bold'>हमारे <span className='text-secondary'>बारे में</span></p>
+        <p className='text-xl text-gray-600 mt-2'>ABOUT US</p>
       </div>
 
-      <div className='my-10 flex flex-col md:flex-row gap-12'>
+      <div className='my-10 flex flex-col md:flex-row gap-12 bg-white p-8 rounded-lg shadow-md'>
         <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
-        <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Welcome to Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.</p>
-          <p>Prescripto is committed to excellence in healthcare technology. We continuously strive to enhance our platform, integrating the latest advancements to improve user experience and deliver superior service. Whether you're booking your first appointment or managing ongoing care, Prescripto is here to support you every step of the way.</p>
-          <b className='text-gray-800'>Our Vision</b>
-          <p>Our vision at Prescripto is to create a seamless healthcare experience for every user. We aim to bridge the gap between patients and healthcare providers, making it easier for you to access the care you need, when you need it.</p>
+        <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-700'>
+          <p className='leading-relaxed'>प्रेस्क्रिप्टो में आपका स्वागत है - भारत का विश्वसनीय स्वास्थ्य सेवा प्लेटफॉर्म। हम समझते हैं कि डॉक्टर से अपॉइंटमेंट लेना और स्वास्थ्य रिकॉर्ड का प्रबंधन करना कितना चुनौतीपूर्ण हो सकता है।</p>
+          <p className='leading-relaxed'>हमारा मिशन है भारत में स्वास्थ्य सेवा को सुलभ और आसान बनाना। हम आधुनिक तकनीक के साथ पारंपरिक भारतीय चिकित्सा पद्धति को जोड़कर एक बेहतर स्वास्थ्य सेवा प्रदान करते हैं।</p>
+          <b className='text-primary text-lg'>हमारा दृष्टिकोण</b>
+          <p className='leading-relaxed'>हमारा लक्ष्य है हर भारतीय को गुणवत्तापूर्ण स्वास्थ्य सेवा प्रदान करना। हम मरीजों और डॉक्टरों के बीच की दूरी को कम करके एक बेहतर स्वास्थ्य व्यवस्था का निर्माण कर रहे हैं।</p>
         </div>
       </div>
 
-      <div className='text-xl my-4'>
-        <p>WHY  <span className='text-gray-700 font-semibold'>CHOOSE US</span></p>
+      <div className='text-2xl my-8 text-center'>
+        <p className='text-primary font-bold'>हमें क्यों <span className='text-secondary'>चुनें</span></p>
+        <p className='text-lg text-gray-600 mt-2'>WHY CHOOSE US</p>
       </div>
 
       <div className='flex flex-col md:flex-row mb-20'>
-        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
-          <b>EFFICIENCY:</b>
-          <p>Streamlined appointment scheduling that fits into your busy lifestyle.</p>
+        <div className='border-2 border-orange-200 px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-700 cursor-pointer bg-white shadow-md'>
+          <b className='text-lg text-primary hover:text-white'>दक्षता:</b>
+          <p className='leading-relaxed'>आपकी व्यस्त जीवनशैली के अनुकूल सरल अपॉइंटमेंट बुकिंग प्रक्रिया।</p>
         </div>
-        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
-          <b>CONVENIENCE: </b>
-          <p>Access to a network of trusted healthcare professionals in your area.</p>
+        <div className='border-2 border-orange-200 px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-secondary hover:text-white transition-all duration-300 text-gray-700 cursor-pointer bg-white shadow-md'>
+          <b className='text-lg text-secondary hover:text-white'>सुविधा:</b>
+          <p className='leading-relaxed'>आपके क्षेत्र के विश्वसनीय स्वास्थ्य पेशेवरों का व्यापक नेटवर्क।</p>
         </div>
-        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
-          <b>PERSONALIZATION:</b>
-          <p >Tailored recommendations and reminders to help you stay on top of your health.</p>
+        <div className='border-2 border-orange-200 px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-accent hover:text-white transition-all duration-300 text-gray-700 cursor-pointer bg-white shadow-md'>
+          <b className='text-lg text-accent hover:text-white'>व्यक्तिगतकरण:</b>
+          <p className='leading-relaxed'>आपके स्वास्थ्य को बेहतर बनाने के लिए व्यक्तिगत सुझाव और रिमाइंडर।</p>
         </div>
       </div>
 

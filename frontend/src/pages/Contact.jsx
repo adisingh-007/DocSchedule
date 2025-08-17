@@ -3,21 +3,22 @@ import { assets } from '../assets/assets'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='bg-warm/20 p-6 rounded-lg'>
 
-      <div className='text-center text-2xl pt-10 text-[#707070]'>
-        <p>CONTACT <span className='text-gray-700 font-semibold'>US</span></p>
+      <div className='text-center text-3xl pt-10 text-primary'>
+        <p className='font-bold'>संपर्क <span className='text-secondary'>करें</span></p>
+        <p className='text-xl text-gray-600 mt-2'>CONTACT US</p>
       </div>
 
-      <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm'>
+      <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm bg-white p-8 rounded-lg shadow-md'>
         <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
-          <p className=' font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className=' text-gray-500'>Survey No. 140 - 141/1 <br /> Indian Institute of Information Technology, Nagpur (IIITN)</p>
-          <p className=' text-gray-500'>Tel: (91) 8468938745 <br /> Email: vasuparashar18@gmail.com</p>
-          <p className=' font-semibold text-lg text-gray-600'>CAREERS AT PRESCRIPTO</p>
-          <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
-          <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
+          <p className='font-bold text-xl text-primary'>हमारा कार्यालय</p>
+          <p className='text-gray-700 leading-relaxed'>सर्वे नं. 140 - 141/1 <br /> भारतीय सूचना प्रौद्योगिकी संस्थान, नागपुर (IIITN)</p>
+          <p className='text-gray-700'>📞 दूरभाष: +91 8468938745 <br /> ✉️ ईमेल: info@prescripto.com</p>
+          <p className='font-bold text-xl text-primary'>प्रेस्क्रिप्टो में करियर</p>
+          <p className='text-gray-700 leading-relaxed'>हमारी टीम और नौकरी के अवसरों के बारे में और जानें।</p>
+          <button className='border-2 border-primary px-8 py-4 text-sm hover:bg-primary hover:text-white transition-all duration-500 font-semibold text-primary rounded-lg shadow-md'>नौकरियां देखें</button>
         </div>
       </div>
 

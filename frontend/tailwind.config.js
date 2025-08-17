@@ -10,7 +10,11 @@ export default {
         'auto':'repeat(auto-fill, minmax(200px, 1fr))'
       },
       colors:{
-        'primary':'#5F6FFF'
+        'primary':'#FF6B35',
+        'secondary':'#F7931E',
+        'accent':'#138808',
+        'warm':'#FFF8DC',
+        'earth':'#8B4513'
       }
     },
   },
