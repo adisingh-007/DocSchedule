@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <div className='md:mx-10 bg-gradient-to-r from-warm to-orange-50 rounded-lg p-8 mt-20'>
+    <div className='md:mx-10 bg-gradient-to-r from-cream to-orange-50 rounded-lg p-8 mt-20 border border-orange-200'>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 text-sm'>
 
         <div>
@@ -33,12 +33,10 @@ const Footer = () => {
       </div>
 
       <div>
-        <hr />
+        <hr className='border-orange-200' />
         <p className='py-5 text-sm text-center text-gray-600 font-medium'>कॉपीराइट 2024 @ Prescripto.com - सभी अधिकार सुरक्षित।</p>
       </div>
 
     </div>
   )
 }
-
-export default Footer

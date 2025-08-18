@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #FFF8DC 0%, #FFEAA7 100%);
+    background: linear-gradient(135deg, #FFFDD0 0%, #FFF8DC 100%);
     min-height: 100vh;
 }
 
@@ -30,11 +30,15 @@ body {
 
 /* Custom gradient backgrounds */
 .gradient-warm {
-    background: linear-gradient(135deg, #FFF8DC 0%, #FFEAA7 100%);
+    background: linear-gradient(135deg, #FFFDD0 0%, #FFF8DC 100%);
 }
 
 .gradient-primary {
     background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+}
+
+.gradient-indian {
+    background: linear-gradient(135deg, #FF9933 0%, #138808 50%, #FFFFFF 100%);
 }
 
 /* Card hover effects */
@@ -45,4 +49,27 @@ body {
 .card-hover:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(255, 107, 53, 0.15);
+}
+
+/* Indian theme specific styles */
+.indian-border {
+    border: 2px solid #FF9933;
+    border-radius: 8px;
+}
+
+.saffron-text {
+    color: #FF9933;
+}
+
+.green-text {
+    color: #138808;
+}
+
+/* Enhanced shadows for Indian theme */
+.indian-shadow {
+    box-shadow: 0 4px 15px rgba(255, 153, 51, 0.2);
+}
+
+.indian-shadow-hover:hover {
+    box-shadow: 0 8px 25px rgba(255, 153, 51, 0.3);
 }

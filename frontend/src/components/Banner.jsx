@@ -7,7 +7,7 @@ const Banner = () => {
     const navigate = useNavigate()
 
     return (
-        <div className='flex bg-gradient-to-r from-accent to-primary rounded-lg px-6 sm:px-10 md:px-14 lg:px-12 my-20 md:mx-10 shadow-lg'>
+        <div className='flex bg-gradient-to-r from-indianGreen to-primary rounded-lg px-6 sm:px-10 md:px-14 lg:px-12 my-20 md:mx-10 shadow-lg border border-green-200'>
 
             {/* ------- Left Side ------- */}
             <div className='flex-1 py-8 sm:py-10 md:py-16 lg:py-24 lg:pl-5'>

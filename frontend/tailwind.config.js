@@ -11,10 +11,13 @@ export default {
       },
       colors:{
         'primary':'#FF6B35',
-        'secondary':'#F7931E',
+        'secondary':'#F7931E', 
         'accent':'#138808',
         'warm':'#FFF8DC',
-        'earth':'#8B4513'
+        'earth':'#8B4513',
+        'saffron':'#FF9933',
+        'indianGreen':'#138808',
+        'cream':'#FFFDD0'
       }
     },
   },

@@ -25,7 +25,7 @@ const Doctors = () => {
   }, [doctors, speciality])
 
   return (
-    <div className='bg-warm/20 p-6 rounded-lg'>
+    <div className='bg-cream/20 p-6 rounded-lg border border-orange-200'>
       <p className='text-gray-700 font-semibold text-lg mb-4'>विशेषज्ञ डॉक्टरों की सूची देखें।</p>
       <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
         <button onClick={() => setShowFilter(!showFilter)} className={`py-2 px-4 border-2 border-primary rounded-lg text-sm font-semibold transition-all sm:hidden ${showFilter ? 'bg-primary text-white' : 'text-primary'}`}>फिल्टर</button>
@@ -40,9 +40,9 @@ const Doctors = () => {
         <div className='w-full grid grid-cols-auto gap-4 gap-y-6'>
           {filterDoc.map((item, index) => (
             <div onClick={() => { navigate(`/appointment/${item._id}`); scrollTo(0, 0) }} className='border-2 border-orange-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500 shadow-md hover:shadow-lg bg-white' key={index}>
-              <img className='bg-gradient-to-b from-warm to-orange-100' src={item.image} alt="" />
+              <img className='bg-gradient-to-b from-cream to-orange-100' src={item.image} alt="" />
               <div className='p-4'>
-                <div className={`flex items-center gap-2 text-sm text-center ${item.available ? 'text-green-500' : "text-gray-500"}`}>
+                <div className={`flex items-center gap-2 text-sm text-center ${item.available ? 'text-green-600' : "text-gray-500"}`}>
                   <p className={`w-2 h-2 rounded-full ${item.available ? 'bg-green-600' : "bg-gray-500"}`}></p><p className='font-semibold'>{item.available ? 'उपलब्ध' : "अनुपलब्ध"}</p>
                 </div>
                 <p className='text-gray-800 text-lg font-semibold mt-2'>{item.name}</p>

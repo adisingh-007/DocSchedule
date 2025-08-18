@@ -88,212 +88,212 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Rajesh Kumar',
+        name: 'डॉ. राजेश कुमार',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Kumar has extensive experience in family medicine and preventive healthcare. He is dedicated to providing compassionate care to patients of all ages with a focus on holistic wellness and traditional Indian medical practices.',
-        fees: 50,
+        about: 'डॉ. कुमार के पास पारिवारिक चिकित्सा और निवारक स्वास्थ्य देखभाल में व्यापक अनुभव है। वे सभी उम्र के मरीजों को समग्र कल्याण और पारंपरिक भारतीय चिकित्सा पद्धतियों पर ध्यान देने के साथ दयालु देखभाल प्रदान करने के लिए समर्पित हैं।',
+        fees: 500,
         address: {
-            line1: 'Sector 15, Dwarka',
-            line2: 'New Delhi - 110075'
+            line1: 'सेक्टर 15, द्वारका',
+            line2: 'नई दिल्ली - 110075'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Priya Sharma',
+        name: 'डॉ. प्रिया शर्मा',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Sharma specializes in women\'s health and reproductive medicine. She combines modern medical practices with traditional Ayurvedic principles to provide comprehensive care for women at all stages of life.',
-        fees: 60,
+        about: 'डॉ. शर्मा महिलाओं के स्वास्थ्य और प्रजनन चिकित्सा में विशेषज्ञ हैं। वे जीवन के सभी चरणों में महिलाओं के लिए व्यापक देखभाल प्रदान करने के लिए आधुनिक चिकित्सा पद्धतियों को पारंपरिक आयुर्वेदिक सिद्धांतों के साथ जोड़ती हैं।',
+        fees: 600,
         address: {
-            line1: 'Banjara Hills, Road No. 12',
-            line2: 'Hyderabad - 500034'
+            line1: 'बंजारा हिल्स, रोड नं. 12',
+            line2: 'हैदराबाद - 500034'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Amit Patel',
+        name: 'डॉ. अमित पटेल',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Patel is a skilled dermatologist with expertise in treating various skin conditions. He believes in combining modern dermatological treatments with natural remedies for optimal skin health.',
-        fees: 30,
+        about: 'डॉ. पटेल विभिन्न त्वचा रोगों के इलाज में विशेषज्ञता रखने वाले एक कुशल त्वचा विशेषज्ञ हैं। वे इष्टतम त्वचा स्वास्थ्य के लिए आधुनिक त्वचा विज्ञान उपचार को प्राकृतिक उपचार के साथ जोड़ने में विश्वास करते हैं।',
+        fees: 300,
         address: {
-            line1: 'Koregaon Park, Lane 5',
-            line2: 'Pune - 411001'
+            line1: 'कोरेगांव पार्क, लेन 5',
+            line2: 'पुणे - 411001'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Sunita Reddy',
+        name: 'डॉ. सुनीता रेड्डी',
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Reddy is passionate about child healthcare and development. She provides gentle, family-centered care with emphasis on preventive medicine and healthy lifestyle habits for children.',
-        fees: 40,
+        about: 'डॉ. रेड्डी बाल स्वास्थ्य देखभाल और विकास के बारे में भावुक हैं। वे बच्चों के लिए निवारक चिकित्सा और स्वस्थ जीवन शैली की आदतों पर जोर देने के साथ कोमल, पारिवारिक-केंद्रित देखभाल प्रदान करती हैं।',
+        fees: 400,
         address: {
-            line1: 'Anna Nagar, 2nd Avenue',
-            line2: 'Chennai - 600040'
+            line1: 'अन्ना नगर, द्वितीय एवेन्यू',
+            line2: 'चेन्नई - 600040'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Vikram Singh',
+        name: 'डॉ. विक्रम सिंह',
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Singh specializes in neurological disorders and brain health. He combines advanced medical techniques with yoga and meditation practices for comprehensive neurological care.',
-        fees: 50,
+        about: 'डॉ. सिंह न्यूरोलॉजिकल विकार और मस्तिष्क स्वास्थ्य में विशेषज्ञ हैं। वे व्यापक न्यूरोलॉजिकल देखभाल के लिए उन्नत चिकित्सा तकनीकों को योग और ध्यान प्रथाओं के साथ जोड़ते हैं।',
+        fees: 500,
         address: {
-            line1: 'Civil Lines, Mall Road',
-            line2: 'Chandigarh - 160001'
+            line1: 'सिविल लाइन्स, मॉल रोड',
+            line2: 'चंडीगढ़ - 160001'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Kavita Joshi',
+        name: 'डॉ. कविता जोशी',
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Joshi is an experienced neurologist with expertise in treating complex neurological conditions. She integrates modern medicine with traditional Indian healing practices.',
-        fees: 50,
+        about: 'डॉ. जोशी जटिल न्यूरोलॉजिकल स्थितियों के इलाज में विशेषज्ञता रखने वाली एक अनुभवी न्यूरोलॉजिस्ट हैं। वे आधुनिक चिकित्सा को पारंपरिक भारतीय उपचार प्रथाओं के साथ एकीकृत करती हैं।',
+        fees: 500,
         address: {
-            line1: 'Satellite, SG Highway',
-            line2: 'Ahmedabad - 380015'
+            line1: 'सैटेलाइट, एसजी हाईवे',
+            line2: 'अहमदाबाद - 380015'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Arjun Gupta',
+        name: 'डॉ. अर्जुन गुप्ता',
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Gupta provides comprehensive primary healthcare services with a focus on preventive medicine. He believes in treating patients with compassion and incorporating wellness practices.',
-        fees: 50,
+        about: 'डॉ. गुप्ता निवारक चिकित्सा पर ध्यान देने के साथ व्यापक प्राथमिक स्वास्थ्य सेवाएं प्रदान करते हैं। वे मरीजों का दयालुता से इलाज करने और कल्याण प्रथाओं को शामिल करने में विश्वास करते हैं।',
+        fees: 500,
         address: {
-            line1: 'Lajpat Nagar, Central Market',
-            line2: 'New Delhi - 110024'
+            line1: 'लाजपत नगर, सेंट्रल मार्केट',
+            line2: 'नई दिल्ली - 110024'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Meera Iyer',
+        name: 'डॉ. मीरा अय्यर',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Iyer is dedicated to women\'s health and wellness. She provides personalized care combining modern gynecological practices with traditional Indian medicine approaches.',
-        fees: 60,
+        about: 'डॉ. अय्यर महिलाओं के स्वास्थ्य और कल्याण के लिए समर्पित हैं। वे आधुनिक स्त्री रोग प्रथाओं को पारंपरिक भारतीय चिकित्सा दृष्टिकोण के साथ जोड़कर व्यक्तिगत देखभाल प्रदान करती हैं।',
+        fees: 600,
         address: {
-            line1: 'Jayanagar, 4th Block',
-            line2: 'Bangalore - 560011'
+            line1: 'जयनगर, चौथा ब्लॉक',
+            line2: 'बैंगलोर - 560011'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Rohit Malhotra',
+        name: 'डॉ. रोहित मल्होत्रा',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Malhotra specializes in dermatology and cosmetic treatments. He focuses on natural skincare solutions and combines modern treatments with Ayurvedic principles.',
-        fees: 30,
+        about: 'डॉ. मल्होत्रा त्वचा विज्ञान और कॉस्मेटिक उपचार में विशेषज्ञ हैं। वे प्राकृतिक त्वचा देखभाल समाधानों पर ध्यान केंद्रित करते हैं और आधुनिक उपचार को आयुर्वेदिक सिद्धांतों के साथ जोड़ते हैं।',
+        fees: 300,
         address: {
-            line1: 'Connaught Place, Block A',
-            line2: 'New Delhi - 110001'
+            line1: 'कनॉट प्लेस, ब्लॉक ए',
+            line2: 'नई दिल्ली - 110001'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Anjali Verma',
+        name: 'डॉ. अंजलि वर्मा',
         image: doc10,
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Verma is committed to providing excellent pediatric care. She emphasizes on nutrition, immunization, and overall child development with a gentle, caring approach.',
-        fees: 40,
+        about: 'डॉ. वर्मा उत्कृष्ट बाल चिकित्सा देखभाल प्रदान करने के लिए प्रतिबद्ध हैं। वे कोमल, देखभाल करने वाले दृष्टिकोण के साथ पोषण, टीकाकरण और समग्र बाल विकास पर जोर देती हैं।',
+        fees: 400,
         address: {
-            line1: 'Gomti Nagar, Sector 12',
-            line2: 'Lucknow - 226010'
+            line1: 'गोमती नगर, सेक्टर 12',
+            line2: 'लखनऊ - 226010'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Sanjay Agarwal',
+        name: 'डॉ. संजय अग्रवाल',
         image: doc11,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Agarwal is an expert in neurological disorders and brain health. He integrates modern neurology with traditional Indian practices like yoga and meditation for holistic treatment.',
-        fees: 50,
+        about: 'डॉ. अग्रवाल न्यूरोलॉजिकल विकार और मस्तिष्क स्वास्थ्य के विशेषज्ञ हैं। वे समग्र उपचार के लिए आधुनिक न्यूरोलॉजी को योग और ध्यान जैसी पारंपरिक भारतीय प्रथाओं के साथ एकीकृत करते हैं।',
+        fees: 500,
         address: {
-            line1: 'Park Street, Near Metro',
-            line2: 'Kolkata - 700016'
+            line1: 'पार्क स्ट्रीट, मेट्रो के पास',
+            line2: 'कोलकाता - 700016'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Deepika Nair',
+        name: 'डॉ. दीपिका नायर',
         image: doc12,
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Nair specializes in neurological care with a focus on patient-centered treatment. She combines evidence-based medicine with traditional healing approaches.',
-        fees: 50,
+        about: 'डॉ. नायर रोगी-केंद्रित उपचार पर ध्यान देने के साथ न्यूरोलॉजिकल देखभाल में विशेषज्ञ हैं। वे साक्ष्य-आधारित चिकित्सा को पारंपरिक उपचार दृष्टिकोण के साथ जोड़ती हैं।',
+        fees: 500,
         address: {
-            line1: 'Marine Drive, Nariman Point',
-            line2: 'Mumbai - 400021'
+            line1: 'मरीन ड्राइव, नरीमन पॉइंट',
+            line2: 'मुंबई - 400021'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Manoj Tiwari',
+        name: 'डॉ. मनोज तिवारी',
         image: doc13,
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Tiwari provides comprehensive family medicine services. He believes in preventive healthcare and incorporates traditional Indian wellness practices in his treatment approach.',
-        fees: 50,
+        about: 'डॉ. तिवारी व्यापक पारिवारिक चिकित्सा सेवाएं प्रदान करते हैं। वे निवारक स्वास्थ्य देखभाल में विश्वास करते हैं और अपने उपचार दृष्टिकोण में पारंपरिक भारतीय कल्याण प्रथाओं को शामिल करते हैं।',
+        fees: 500,
         address: {
-            line1: 'Hazratganj, Near GPO',
-            line2: 'Lucknow - 226001'
+            line1: 'हजरतगंज, जीपीओ के पास',
+            line2: 'लखनऊ - 226001'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Pooja Khanna',
+        name: 'डॉ. पूजा खन्ना',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Khanna is dedicated to women\'s reproductive health and wellness. She provides compassionate care with a focus on natural healing and modern medical practices.',
-        fees: 60,
+        about: 'डॉ. खन्ना महिलाओं के प्रजनन स्वास्थ्य और कल्याण के लिए समर्पित हैं। वे प्राकृतिक उपचार और आधुनिक चिकित्सा पद्धतियों पर ध्यान देने के साथ दयालु देखभाल प्रदान करती हैं।',
+        fees: 600,
         address: {
-            line1: 'Vasant Kunj, Sector C',
-            line2: 'New Delhi - 110070'
+            line1: 'वसंत कुंज, सेक्टर सी',
+            line2: 'नई दिल्ली - 110070'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Ravi Chandra',
+        name: 'डॉ. रवि चंद्र',
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Chandra is a young and enthusiastic dermatologist. He focuses on natural skincare treatments and combines modern dermatology with traditional Ayurvedic remedies.',
-        fees: 30,
+        about: 'डॉ. चंद्र एक युवा और उत्साही त्वचा विशेषज्ञ हैं। वे प्राकृतिक त्वचा देखभाल उपचार पर ध्यान केंद्रित करते हैं और आधुनिक त्वचा विज्ञान को पारंपरिक आयुर्वेदिक उपचार के साथ जोड़ते हैं।',
+        fees: 300,
         address: {
-            line1: 'Jubilee Hills, Road No. 36',
-            line2: 'Hyderabad - 500033'
+            line1: 'जुबली हिल्स, रोड नं. 36',
+            line2: 'हैदराबाद - 500033'
         }
     },
 ]

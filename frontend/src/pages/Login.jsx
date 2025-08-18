@@ -51,7 +51,7 @@ const Login = () => {
   }, [token])
 
   return (
-    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center bg-warm/20 p-6 rounded-lg'>
+    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center bg-cream/20 p-6 rounded-lg border border-orange-200'>
       <div className='flex flex-col gap-4 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border-2 border-orange-200 rounded-xl text-gray-700 text-sm shadow-lg bg-white'>
         <p className='text-3xl font-bold text-primary'>{state === 'Sign Up' ? 'खाता बनाएं' : 'लॉगिन करें'}</p>
         <p className='text-gray-600'>{state === 'Sign Up' ? 'अपॉइंटमेंट बुक करने के लिए साइन अप करें' : 'अपॉइंटमेंट बुक करने के लिए लॉगिन करें'}</p>
